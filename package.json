@@ -1,6 +1,9 @@
 {
   "jspm": {
-    "directories": {},
+    "directories": {
+      "baseURL": "src"
+    },
+    "configFile": "src/jspm.config.js",
     "dependencies": {
       "angular": "github:angular/bower-angular@^1.4.4",
       "angular-material": "github:angular/bower-material@^0.10.1",
