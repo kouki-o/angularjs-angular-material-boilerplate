@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>AngularJS + Angular Material</title>
+  </head>
+  <body ng-app="DemoApp">
+    <main ui-view></main>
+    <md-button class="md-raised">Button</md-button>
+    <script src="jspm_packages/system.js"></script>
+    <script src="jspm.config.js"></script>
+    <script>
+      System.import('app/main');
+    </script>
+  </body>
+</html>
