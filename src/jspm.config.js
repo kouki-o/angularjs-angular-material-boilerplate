@@ -7,6 +7,11 @@ System.config({
       "optimisation.modules.system"
     ]
   },
+  paths: {
+    "github:*": "jspm_packages/github/*",
+    "npm:*": "jspm_packages/npm/*"
+  },
+
   packages: {
     "app": {
       "defaultExtension": "ts",
@@ -17,10 +22,6 @@ System.config({
       }
     }
   },
-  paths: {
-    "github:*": "jspm_packages/github/*",
-    "npm:*": "jspm_packages/npm/*"
-  },
   separateCSS: true,
 
   map: {
@@ -30,6 +31,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.20",
     "core-js": "npm:core-js@1.1.1",
     "ts": "github:frankwallis/plugin-typescript@2.0.7",
+    "typescript": "npm:typescript@1.6.0-dev.20150825",
     "github:angular/bower-angular-animate@1.4.4": {
       "angular": "github:angular/bower-angular@1.4.4"
     },
